@@ -1,3 +1,4 @@
+export {movies}
 const movies = [
   {
     title: 'The Shawshank Redemption',
@@ -2001,3 +2002,7 @@ const movies = [
     score: 8
   }
 ];
+if (typeof module !== 'undefined') {
+  
+  module.exports = movies;
+}
